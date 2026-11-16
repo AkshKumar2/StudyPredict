@@ -1,0 +1,228 @@
+{
+  "columns": [
+    "sex",
+    "age",
+    "address",
+    "famsize",
+    "Pstatus",
+    "Medu",
+    "Fedu",
+    "Mjob",
+    "Fjob",
+    "reason",
+    "guardian",
+    "traveltime",
+    "studytime",
+    "failures",
+    "schoolsup",
+    "famsup",
+    "paid",
+    "activities",
+    "nursery",
+    "higher",
+    "internet",
+    "romantic",
+    "famrel",
+    "freetime",
+    "goout",
+    "Dalc",
+    "Walc",
+    "health",
+    "absences"
+  ],
+  "cat_cols": [
+    "sex",
+    "address",
+    "famsize",
+    "Pstatus",
+    "Mjob",
+    "Fjob",
+    "reason",
+    "guardian",
+    "schoolsup",
+    "famsup",
+    "paid",
+    "activities",
+    "nursery",
+    "higher",
+    "internet",
+    "romantic"
+  ],
+  "num_cols": [
+    "age",
+    "Medu",
+    "Fedu",
+    "traveltime",
+    "studytime",
+    "failures",
+    "famrel",
+    "freetime",
+    "goout",
+    "Dalc",
+    "Walc",
+    "health",
+    "absences"
+  ],
+  "defaults": {
+    "sex": "F",
+    "age": 17.0,
+    "address": "U",
+    "famsize": "GT3",
+    "Pstatus": "T",
+    "Medu": 3.0,
+    "Fedu": 2.0,
+    "Mjob": "other",
+    "Fjob": "other",
+    "reason": "course",
+    "guardian": "mother",
+    "traveltime": 1.0,
+    "studytime": 2.0,
+    "failures": 0.0,
+    "schoolsup": "no",
+    "famsup": "yes",
+    "paid": "no",
+    "activities": "yes",
+    "nursery": "yes",
+    "higher": "yes",
+    "internet": "yes",
+    "romantic": "no",
+    "famrel": 4.0,
+    "freetime": 3.0,
+    "goout": 3.0,
+    "Dalc": 1.0,
+    "Walc": 2.0,
+    "health": 4.0,
+    "absences": 4.0
+  },
+  "options": {
+    "sex": [
+      "F",
+      "M"
+    ],
+    "address": [
+      "R",
+      "U"
+    ],
+    "famsize": [
+      "GT3",
+      "LE3"
+    ],
+    "Pstatus": [
+      "A",
+      "T"
+    ],
+    "Mjob": [
+      "at_home",
+      "health",
+      "other",
+      "services",
+      "teacher"
+    ],
+    "Fjob": [
+      "at_home",
+      "health",
+      "other",
+      "services",
+      "teacher"
+    ],
+    "reason": [
+      "course",
+      "home",
+      "other",
+      "reputation"
+    ],
+    "guardian": [
+      "father",
+      "mother",
+      "other"
+    ],
+    "schoolsup": [
+      "no",
+      "yes"
+    ],
+    "famsup": [
+      "no",
+      "yes"
+    ],
+    "paid": [
+      "no",
+      "yes"
+    ],
+    "activities": [
+      "no",
+      "yes"
+    ],
+    "nursery": [
+      "no",
+      "yes"
+    ],
+    "higher": [
+      "no",
+      "yes"
+    ],
+    "internet": [
+      "no",
+      "yes"
+    ],
+    "romantic": [
+      "no",
+      "yes"
+    ]
+  },
+  "ranges": {
+    "age": [
+      15.0,
+      22.0
+    ],
+    "Medu": [
+      0.0,
+      4.0
+    ],
+    "Fedu": [
+      0.0,
+      4.0
+    ],
+    "traveltime": [
+      1.0,
+      4.0
+    ],
+    "studytime": [
+      1.0,
+      4.0
+    ],
+    "failures": [
+      0.0,
+      3.0
+    ],
+    "famrel": [
+      1.0,
+      5.0
+    ],
+    "freetime": [
+      1.0,
+      5.0
+    ],
+    "goout": [
+      1.0,
+      5.0
+    ],
+    "Dalc": [
+      1.0,
+      5.0
+    ],
+    "Walc": [
+      1.0,
+      5.0
+    ],
+    "health": [
+      1.0,
+      5.0
+    ],
+    "absences": [
+      0.0,
+      75.0
+    ]
+  },
+  "use_g1_g2": false,
+  "model_name": "Random Forest"
+}
